@@ -1,10 +1,23 @@
+<h1 align="center">
+    aprendendo laravel com docker
+</h1>
+
+<h4 align="center">
+    :construction: Projeto em Construção    :construction:
+</h4>
+
+- Comecei a estudar laravel e senti a necessidade de parender docker também, está servindo como uma revisão para os principais conceitos do laravel e juntamente aprender sobre o docker.
+- Confesso que não está sendo tão fácil, mas pretendo cada vez mais mergulhar nesse ambiente e apriomorar meus conhecimentos.
+- Créditos: https://youtu.be/oz9K3jtFUvI?si=w62QQYMeEBRre3xx
+- Juntando os conhecimentos dos cursos da alura e desse curso no youtube, acredito que eu esteja mais capacitado pra desenvolver em um ambiente profisional, estou bem entusiasmado com essas tecnologias novas de fremeworks e containers.
+
 ### Passo a passo
 Clone Repositório
 ```sh
-git clone -b laravel-10-com-php-8.1 https://github.com/especializati/setup-docker-laravel.git app-laravel
+git clone https://github.com/lima-12/learning-laravel-docker.git
 ```
 ```sh
-cd app-laravel
+cd learning-laravel-docker
 ```
 
 
