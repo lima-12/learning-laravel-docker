@@ -11,7 +11,9 @@
 - Créditos: https://youtu.be/oz9K3jtFUvI?si=w62QQYMeEBRre3xx
 - Juntando os conhecimentos dos cursos da alura e desse curso no youtube, acredito que eu esteja mais capacitado pra desenvolver em um ambiente profisional, estou bem entusiasmado com essas tecnologias novas de fremeworks e containers.
 - Além disso, serve de desafio, mesmo me baseando no curso do rapaz do youtuber, vou usar como base pra ir fazendo algumas coisas do meu jeito.
+- Por fim, eu quero justamente fixar bem esses conceitos bases sobre o MVC, flashmessages, rotas, sessões, CRUD, tudo do mais básico eu quero ter total domínio e sei que sou totalmente capaz, para só então aprofundar em conhecimentos mais "robustos" como envio de email's e api's, até porque o conceito sobre essas funcionalidade eu já tenho e já executei com o "php legado" que vejo diáriamente, dito isso, irei tentar deixar o máximo de comentário possível no decorrer do código.
 
+  
 ### Passo a passo
 Clone Repositório (se atente na versão que está clonando, ir lá no primeiro commit)
 ```sh
@@ -22,7 +24,7 @@ cd learning-laravel-docker
 ```
 
 
-Crie o Arquivo .env (É bom ter o entendimento do queesse arquivo faz)
+Crie o Arquivo .env (É bom ter o entendimento do que esse arquivo faz)
 ```sh
 cp .env.example .env
 ```
@@ -50,25 +52,25 @@ REDIS_PORT=6379
 ```
 
 
-Suba os containers do projeto
+1. Suba os containers do projeto
 ```sh
 docker-compose up -d
 ```
 
 
-Acesse o container app
+2. Acesse o container app
 ```sh
 docker-compose exec app bash
 ```
 
 
-Instale as dependências do projeto (esse comando só precisa executar uma vez no projeto)
+3. Instale as dependências do projeto (esse comando só precisa executar uma vez no projeto)
 ```sh
 composer install
 ```
 
 
-Gere a key do projeto Laravel (esse comando só precisa executar uma vez no projeto)
+4. Gere a key do projeto Laravel (esse comando só precisa executar uma vez no projeto)
 ```sh
 php artisan key:generate
 ```
