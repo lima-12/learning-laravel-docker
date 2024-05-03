@@ -6,16 +6,17 @@
     :construction: Projeto em Construção    :construction:
 </h4>
 
-- Comecei a estudar laravel e senti a necessidade de aprender docker também, está servindo como uma revisão para os principais conceitos do laravel e juntamente aprender sobre o docker.
-- Confesso que não está sendo tão fácil, mas pretendo cada vez mais mergulhar nesse ambiente e apriomorar meus conhecimentos.
 - Créditos: https://youtu.be/oz9K3jtFUvI?si=w62QQYMeEBRre3xx
-- Juntando os conhecimentos dos cursos da alura e desse curso no youtube, acredito que eu esteja mais capacitado pra desenvolver em um ambiente profisional, estou bem entusiasmado com essas tecnologias novas de fremeworks e containers.
+- Comecei a estudar laravel e senti a necessidade de aprender docker também, está servindo como uma revisão para os principais conceitos do laravel e juntamente aprender sobre o docker.
+- Confesso que não está sendo tão fácil, mas pretendo cada vez mais mergulhar nesse ambiente e aprimorar meus conhecimentos.
+- Juntando os conhecimentos dos cursos da alura e desse curso no youtube, acredito que eu esteja mais capacitado pra desenvolver em um ambiente profisional com laravel. Estou bem entusiasmado com essas tecnologias novas, esse fremeworks e containers.
 - Além disso, serve de desafio, mesmo me baseando no curso do rapaz do youtuber, vou usar como base pra ir fazendo algumas coisas do meu jeito.
 - Por fim, eu quero justamente fixar bem esses conceitos bases sobre o MVC, flashmessages, rotas, sessões, CRUD, tudo do mais básico eu quero ter total domínio e sei que sou totalmente capaz, para só então aprofundar em conhecimentos mais "robustos" como envio de email's e api's, até porque o conceito sobre essas funcionalidade eu já tenho e já executei com o "php legado" que vejo diáriamente, dito isso, irei tentar deixar o máximo de comentário possível no decorrer do código.
 
 - No decorrer das aulas vou deixando comentários a respeito do meu aprendizado.
 - Estou empolgado com essas novas tecnologias confesso, e estar revendo tá sendo motivador, pois estou me forçando a lembrar os comandos, os conceitos e buscar sempre a documentação.
 - A melhor dica é fazer esses cursos sem pressa alguma, estou vendo uma quantidade limitada de aulas pra me forçar a assistir mais de uma vez, pesquisar na documentação e em sites externos pra entender exatamente o PORQUÊ de estar tomando determinada decisão.
+- Uma observação bem importante é que nesse curso (do youtube) ele tem abordagens diferentes do curso da alura, o que é totalmente normal de sea contecer em ambientes profissionais, mais um ponto a ser compreendido, além ele trás diversos conceitos que ainda não tive contato, por isso meu estusiasmo. Estou curtindo bastante o framework, deu um gás giganstesto no meu estudo do PHP.
 
   
 ### Passo a passo
