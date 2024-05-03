@@ -17,6 +17,7 @@
 - Estou empolgado com essas novas tecnologias confesso, e estar revendo tá sendo motivador, pois estou me forçando a lembrar os comandos, os conceitos e buscar sempre a documentação.
 - A melhor dica é fazer esses cursos sem pressa alguma, estou vendo uma quantidade limitada de aulas pra me forçar a assistir mais de uma vez, pesquisar na documentação e em sites externos pra entender exatamente o PORQUÊ de estar tomando determinada decisão.
 - Uma observação bem importante é que nesse curso (do youtube) ele tem abordagens diferentes do curso da alura, o que é totalmente normal de sea contecer em ambientes profissionais, mais um ponto a ser compreendido, além ele trás diversos conceitos que ainda não tive contato, por isso meu estusiasmo. Estou curtindo bastante o framework, deu um gás giganstesto no meu estudo do PHP.
+- Mais uma dica, mesmo fazendo essa parte inicial, do CRUD, eu tento assistir todos os vídeos do curso (pode ser no 2x) do inicio ao fim, antes de codar tudo. Eu consigo absorver melhor o conteúdo dessa forma e já sei o que posso alterar para deixar o projeto do meu jeito.
 
   
 ### Passo a passo
