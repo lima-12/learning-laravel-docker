@@ -18,6 +18,8 @@
 - A melhor dica é fazer esses cursos sem pressa alguma, estou vendo uma quantidade limitada de aulas pra me forçar a assistir mais de uma vez, pesquisar na documentação e em sites externos pra entender exatamente o PORQUÊ de estar tomando determinada decisão.
 - Uma observação bem importante é que nesse curso (do youtube) ele tem abordagens diferentes do curso da alura, o que é totalmente normal de sea contecer em ambientes profissionais, mais um ponto a ser compreendido, além ele trás diversos conceitos que ainda não tive contato, por isso meu estusiasmo. Estou curtindo bastante o framework, deu um gás giganstesto no meu estudo do PHP.
 - Mais uma dica, mesmo fazendo essa parte inicial, do CRUD, eu tento assistir todos os vídeos do curso (pode ser no 2x) do inicio ao fim, antes de codar tudo. Eu consigo absorver melhor o conteúdo dessa forma e já sei o que posso alterar para deixar o projeto do meu jeito.
+- Outra coisa muito importante é a paciência com esses novos conceitos, no primeiro momento a gente pensa logo que tá tudo muito complexo, ou que algo nunca vai servir, mas essa galera mais experiente (que ministra esses cursos) tem anos de experiência, então é bom ouvir com atenção o que eles tem a dizer, absorver não só conceitos da tecnologia, mas conceitos de mercado e afins. Assim, de pouco em pouco ir criando confiança, alterar alguma funcionalidades e ter personalidade pra prosseguir os projetos e implementar nova funcionalidade após a conclusão do curso.
+- Eu queria deixar esses comentários em apenas um repositório, mas como já estou lotando esse, vai ficar separado mesmo, pelo menos um consegui distinguir o que aprendi em casa curso.
 
   
 ### Passo a passo
