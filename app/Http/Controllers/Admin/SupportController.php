@@ -2,37 +2,45 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\DTO\CreateSupportDTO;
+use App\DTO\UpdateSupportDTO;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreUpdateSupport;
 use App\Models\Support;
 use Illuminate\Http\Request;
+use App\Services\SupportService;
 
 class SupportController extends Controller
 {
-    public function index(Support $support)
+
+    public function __construct(protected SupportService $service)
+    {}
+
+    public function index(Request $request)
     {
         /**
          * | $support = new Support();
          * | ao inves de fazer dessa forma, passamos Support na url o laravel já faz isso de uma forma "mágica"
+         * | $supports = $support->all();
+         * | e podemos melhorar aionda mais passando no construtor.
          */
-        
-        $supports = $support->all();
+
+        $supports = $this->service->getAll($request->filter);
+
         // dd($supports);
-
         // $supports = Support::all();
-
-
 
         return view('admin.supports.index', compact('supports'));
     }
 
-    public function show(string|int $id)
+    public function show(string $id)
     {
         // dd($id);
 
         # Support::where('id', $id)->first();
         # Support::where('id', '!=', $id)->first();
-        if(!$support = Support::find($id)) {
+        # if(!$support = Support::find($id)) {
+        if (!$support = $this->service->findOne($id)) {
             return back();
         }
         // dd($support);
@@ -47,20 +55,24 @@ class SupportController extends Controller
 
     public function store(StoreUpdateSupport $request, Support $support)
     {
-        $data = $request->validated();
-        $data['status'] = "a";
 
         /**
-         * importante deixar os valores com os nomes iguais as tabelas do banco
+         * | importante deixar os valores com os nomes iguais as tabelas do banco
+         * | apenas para padronizar
          */
-        $support->create($data);
+        # $data = $request->validated();
+        # $data['status'] = "a";
+        # $support->create($data);
+
+        $this->service->new(CreateSupportDTO::makeFromRequest($request));
 
         return redirect()->route("supports.index");
     }
 
     public function edit(Support $support, string|int $id)
     {
-        if(!$support = $support->find($id)) {
+        # if(!$support = $support->find($id)) {
+        if(!$support = $this->service->findOne($id)) {
             return back();
         }
 
@@ -69,22 +81,23 @@ class SupportController extends Controller
 
     public function update(StoreUpdateSupport $request,  Support $support, string $id)
     {
-        if(!$support = $support->find($id)) {
+        $support = $this->service->update(UpdateSupportDTO::makeFromRequest($request));
+
+        if(!$support) {
             return back();
         }
-
-        $support->update($request->validated());
 
         return redirect()->route("supports.index");
     }
 
-    public function destroy(Support $support, string|int $id)
+    public function destroy(string $id)
     {
-        if(!$support = $support->find($id)) {
-            return back();
-        }
+//        if(!$support = $support->find($id)) {
+//            return back();
+//        }
+//        $support->delete();
 
-        $support->delete();
+        $this->service->delete($id);
 
         return redirect()->route("supports.index");
     }
